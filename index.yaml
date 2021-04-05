@@ -1,11 +1,11 @@
 apiVersion: v1
 entries:
   netdata:
-  - apiVersion: v1
-    appVersion: v1.26.0
-    created: "2020-10-23T15:05:32.715495212Z"
+  - apiVersion: v2
+    appVersion: v1.30.0
+    created: "2021-04-05T15:56:24.821437456Z"
     description: Real-time performance monitoring, done right!
-    digest: 9d59f358d09705ae02cc6d48c75b377453746efa1dc28fa077d7166cc828b886
+    digest: 6d18951277fa4920074b15509a9ba30ef3c4343a78ce9cee119a6f13fa359a1d
     home: https://netdata.cloud/
     icon: https://netdata.github.io/helmchart/logo.png
     keywords:
@@ -29,38 +29,8 @@ entries:
     sources:
     - https://github.com/netdata/helmchart
     - https://github.com/netdata/netdata
+    type: application
     urls:
-    - https://github.com/netdata/helmchart/releases/download/netdata-2.0.14/netdata-2.0.14.tgz
-    version: 2.0.14
-  - apiVersion: v1
-    appVersion: v1.26.0
-    created: "2020-10-22T10:06:53.222457301Z"
-    description: Real-time performance monitoring, done right! https://netdata.cloud/
-    digest: e42b1599ab03626fe62c3fe985f7b58e7aad8c84e0d65f61e87a304cbeac648a
-    home: https://netdata.cloud/
-    icon: https://netdata.github.io/helmchart/logo.png
-    keywords:
-    - alerting
-    - metric
-    - monitoring
-    maintainers:
-    - email: ilya@netdata.cloud
-      name: Ilya Mashchenko
-    - email: knatsakis@netdata.cloud
-      name: Konstantinos Natsakis
-    - email: mansour@netdata.cloud
-      name: Mansour Behabadi
-    - email: vryumin@gmail.com
-      name: Vladimir Ryumin
-    - email: karuppiah7890@gmail.com
-      name: Karuppiah Natarajan
-    - email: kamikaze.ua@gmail.com
-      name: Oleksii Kravchenko
-    name: netdata
-    sources:
-    - https://github.com/netdata/helmchart
-    - https://github.com/netdata/netdata
-    urls:
-    - https://github.com/netdata/helmchart/releases/download/netdata-2.0.13/netdata-2.0.13.tgz
-    version: 2.0.13
-generated: "2020-10-22T15:32:23.621552934+03:00"
+    - https://github.com/OdysLam/helmchart/releases/download/netdata-3.6.4/netdata-3.6.4.tgz
+    version: 3.6.4
+generated: "2021-04-05T15:56:24.702417431Z"
